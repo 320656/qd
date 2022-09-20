@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: pink;
+    height: 2000px;
+}
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+.header {
+    height: 31px;
+    background-color: #F7F7F7;
+}
+.header .left{
+    float: left;
+    margin-top: 9px;
+    padding-right: 17px;;
+    border-right: 1px solid #999999;
+    color: #999999;
+    font-size: 9px;
+    
+}
+.header .right{
+    float: left;
+    margin-top: 9px;
+    margin-left: 17px;
+    color: #333333;
+    font-size: 9px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.loginbar {
+    height: 34px;
+    background-color: #FFFFFF;
+}
+.loginbar img {
+    float: left;
+    height: 100%;
+}
+.loginbar .right {
+    float: right;
+}
+.loginbar .right .login {
+    float: left;
+    margin-left: 22px;
+}
+.loginbar .right .login-1 {
+    float: left;
+    height: 20px;
+    margin-left: 22px;
+    padding-left: 22px;
+    border-left: 2px solid #999999;
+}
+.loginbar .right a{
+    color: black;
+    font-size: 14px;
+}
+.nav {
+    height: 42px;
+    margin-top: 16px;
+}
+.all-class {
+    float: left;
+    width: 230px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 6px 6px 0 0;
+    background-color: #3492FD;
+}
+.content {
+    float: left;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    
+}
+.subnav {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 421px;
+    background: rgba(0,0,0, 0.3);
+}
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+.subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+.subnav ul li a span {
+    float: right;
+}
+.subnav ul li a:hover {
+    color: #00a4ff;
+}
+.content ul li {
+    float: left;
+    margin-left: 40px;
+}
+.content ul li a {
+    color: #000;
+}
+.search {
+    float: right;
+    width: 240px;
+    height: 42px;
+    margin-left: 70px;
+}
+.search input {
+    float: left;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+}
+.banner {
+    height: 320px;
+    background-color: #4751a8;
+}
+.banner img {
+    width: 1190px;
+}
+.bonus {
+    float: right;
+    width: 238px;
+    height: 100px;
+    background-color: white;
+}
+.bonus img {
+    margin-top: 30px;
+    float: left;
+}
+.bonus ul {
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+}
+.main .hot .class {
+    float: left;
+    width: 693px;
+    height: 256px;
+    background-color: skyblue;
+}
+.main .hot .class h3 {
+    padding: 20px 50px;
+}
+.main .hot .class .pic {
+    float: left;
+    margin-left: 22px;
+    padding-left: 28px;
+    width: 285px;
+    height: 120px;
+}
+.pic .right {
+    float: right;
+}
+.news {
+    float: right;
+    background-color: skyblue;
+}
+.news .left {
+    float: left;
+}
+.news .right {
+    float: left;
+}
+.news .right ul li {
+    list-style: disc inside;
+}
+.wall {
+    clear: both;
+}
+.ecourse h3{
+    float: left;
+    font-size: 18px;
+}
+.ecourse ul li {
+    float: left;
+    margin:0 20px;
+}
+.ecourse ul li a{
+    color: #000;
+    font-size: 14px;
+}
+.ecourse {
+    margin-top: 30px;
+    height: 18px;
+    background-color: yellow;
+}
+.wk {
+    float: left;
+    margin-top: 14px;
+    height: 250px;
+    background-color: white;
+}
+.wk .point {
+    float: left;
+    width: 290px;
+}
+.wk img{
+    width: 100%;
+}
+.down {
+    float: left;
+    width: 290px;
+    background-color: skyblue;
+}
+.bottom {
+    float: left;
+    width: 290px;
+    background-color: yellowgreen;
+}
+.red {
+    color: red;
+}
+.delete {
+    text-decoration:line-through
+}
+.people {
+    float: right;
+    width: 48px;
+    height: 15px;
+}
+.people img {
+    width: 15px;
+    height: 15px;
+}
+.footer {
+    height: 300px;
+    background-color: #333333;
+}
+table {
+    padding-top: 50px;
+    height: 130px;
+}
+th {
+    text-align: left;
+    padding-left: 60px;
+    font-weight: 700;
+}
+tr {
+    /* background-color: white; */
+    color: #b3adaf;
+}
+td {
+    font-size: 15px;
+    padding-left: 60px;
+}
+.text {
+    width: 420px;
+}
+.off {
+    border-top: 1px solid #393e46;
+    margin-top: 50px;
+}
